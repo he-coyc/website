@@ -27,8 +27,12 @@
 
     var link = '#';
 
+    function getRandomNumber(min,max){
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+
     function rndgroup(){
-        var link = 'https://vk.com/club' + Math.round(Math.random() * 100000000);
+        var link = 'https://vk.com/club' + getRandomNumber(0, 10000000000);
         console.log("Ссылка сгенерирована! " + link);
         window.open(link, '_blank').focus();
 
