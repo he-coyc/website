@@ -16,7 +16,7 @@
         <div align="center">
             <a onclick="openlink()" id="rslt" class="txt" style="font-size: 24px;" href="#"></a>
             <a onclick="rndgroup()" class="btn" href="#">Погнали!</a>
-            <a class="txt" style="font-size: 16px;" href="https://he-coyc.ru">Сделал @he_coyc</a>
+            <a class="txt" style="font-size: 16px; width: 128px;" href="https://he-coyc.ru">Сделал @he_coyc</a>
         </div>
     </span>
 </body>
@@ -32,7 +32,7 @@
     }
 
     function rndgroup(){
-        var link = 'https://vk.com/club' + getRandomNumber(0, 10000000000);
+        var link = 'https://vk.com/club' + getRandomNumber(0, 100000000);
         console.log("Ссылка сгенерирована! " + link);
         window.open(link, '_blank').focus();
 
