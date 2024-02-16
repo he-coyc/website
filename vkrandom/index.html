@@ -10,13 +10,21 @@
 
 <body>
     <span class="header">
-        <img src="vk-logo.png" style="height: 44px; margin: 4px;">
+        <img src="vk-logo.png" style="height: 32px; margin: 8px;"/>
     </span>
     <span class="block">
         <div align="center">
             <a onclick="openlink()" id="rslt" class="txt" style="font-size: 24px;" href="#"></a>
-            <a onclick="rndgroup()" class="btn" href="#">Погнали!</a>
-            <a class="txt" style="font-size: 16px; width: 128px;" href="https://he-coyc.ru">Сделал @he_coyc</a>
+            <a onclick="rndgroup()" class="btn" href="#" title="Открыть случайную группу">Поехали!</a>
+            <span class="options-menu">
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px; "><input type="checkbox" checked><span class="checkbox-ios-switch"></span> Только открытые группы</label>
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input type="checkbox" checked><span class="checkbox-ios-switch"></span> Есть хотя-бы 10 постов</label>
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input type="checkbox"><span class="checkbox-ios-switch"></span> Более 100 участников</label>
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input type="checkbox"><span class="checkbox-ios-switch"></span> Открытая стенка</label>
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input type="checkbox" checked><span class="checkbox-ios-switch"></span> Я Мефедроновая шлюха</label>
+            </span>
+
+            <a class="txt" style="font-size: 16px; width: 128px;" href="https://he-coyc.ru" title="Перейти на сайт разработчика">Сделал @he_coyc</a>
         </div>
     </span>
 </body>
@@ -24,11 +32,10 @@
 <script>
     var element = document.getElementById('rslt');
     element.innerHTML = 'Здесть появится сгенерированная ссылка.';
-
     var link = '#';
 
     function getRandomNumber(min,max){
-        return Math.floor(Math.random() * (max - min)) + min;
+        return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
     function rndgroup(){
