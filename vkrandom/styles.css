@@ -9,8 +9,8 @@ body{
 }
 
 .block{
-width: 100%;
-height: calc(100vh - 48px);
+width: 100%;;
+height: calc(100vh - 49px);
 display: grid;
 align-items: center;
 justify-content: center;
@@ -67,10 +67,20 @@ background-color: #141414;
     color: white;
     padding: 8px;
     display: grid;
-    width: calc(320px);
+    width: calc(384px);
     border-radius: 8px;
-    background-color: #222222;
+    background: #222222;
     border: 1px solid #292929;
+}
+
+.warning-menu{
+    color: white;
+    padding: 8px;
+    display: block;
+    width: calc(384px);
+    border-radius: 8px;
+    background: #522E2E;
+    border: 1px solid #EE575B;
 }
 
 
@@ -139,9 +149,10 @@ background-color: #141414;
 .checkbox-ios input[type=checkbox]:disabled + .checkbox-ios-switch {
 	filter: grayscale(70%);
 	border-color: rgba(0, 0, 0, .1);
+	background: #CACBCE;
 }
 .checkbox-ios input[type=checkbox]:disabled + .checkbox-ios-switch:before {
-	background: #eee;
+	background: #CACBCE;
 }
  
 /* Focus */
