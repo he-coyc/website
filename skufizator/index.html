@@ -1,0 +1,25 @@
+<DOCTYPE! html>
+<head>
+    <title>Скуфизатор текста</title>
+    <link type="text/css" href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+    <div class="header">
+        Скуфизатор текста AI
+    </div>
+    <div class="content">
+        <textarea class="adaptive_element" id="input_element" rows="5" cols="60" name="text" placeholder="Введи текст для скуфизации."></textarea>
+        <input type="button" title="Нажми для скуфизации текста" onclick="do_translation()" value="Скуфизировать" class="rounded-button adaptive_element">
+        <div class="text-box adaptive_element">
+            <span id="output_element" style="color:white">Тут появится скуфизированный текст.</span>
+            <img onclick="copy_translation()" title="Копировать" src="https://avatars.yandex.net/get-music-content/10092855/35e62b93.a.27584063-1/200x200">
+        </div>
+    </div>
+</body>
+
+<script src="js/translator.js"></script>
