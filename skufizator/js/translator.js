@@ -1,3 +1,5 @@
+closeWarning();
+
 function do_translation(){
     var input_text = document.getElementById('input_element').value; // ввод
     var output_text = input_text;
@@ -29,4 +31,13 @@ function capitalizeFirstLetter(string) {
 function copy_translation(){
     navigator.clipboard.writeText(document.getElementById('output_element').textContent);
     console.log(document.getElementById('output_element').textContent);
+}
+
+function closeWarning(){
+    document.getElementById('warning-message').remove();
+}
+
+function clear_translation(){
+    document.getElementById('input_element').innerText = '';
+    document.getElementById('output_element').innerText = '';
 }
