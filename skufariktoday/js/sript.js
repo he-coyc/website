@@ -31,7 +31,7 @@ function initRandomSkufarik(time){
 
 function checkSkufarik(iCanCreate){
     var todayDate = Date.now();
-    if(todayDate - localStorage.getItem('oldTime') > 86000){
+    if(todayDate - localStorage.getItem('oldTime') > 86000 * 1000){
         if(iCanCreate)
             initRandomSkufarik(todayDate);
     }
