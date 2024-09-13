@@ -4,7 +4,7 @@
 }
 @font-face {
 	font-family: 'Oswald'; 
-	src: url('../fonts/Oswald.ttf'); 
+	src: url('fonts/Oswald.ttf'); 
 }
 
 body{
@@ -160,4 +160,37 @@ body{
     .project-back{
         width: 85%;
     }
+}
+
+.date{
+    background-color: purple;
+    width: min-content;
+    height: fit-content;
+    padding: 2px 6px 2px 6px;
+    margin: 2px;
+    border-radius: 6px;
+    color: snow;
+}
+.project-devinfo{
+    display: flex;
+    flex-direction: row;
+}
+.project-lang{
+    background-color: #68a0b0;
+    width: min-content;
+    height: fit-content;
+    padding: 2px 6px 2px 6px;
+    margin: 2px;
+    border-radius: 6px;
+    color: snow;
+}
+.group{
+    display: flex;
+    flex-wrap: wrap;
+    height: min-content;
+}
+.sorter{
+    font-size: 3vh;
+    padding: 4px;
+    color: snow;
 }
