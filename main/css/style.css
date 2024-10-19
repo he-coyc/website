@@ -4,15 +4,15 @@
 }
 @font-face {
 	font-family: 'Oswald'; 
-	src: url('/fonts/Oswald.ttf'); 
+	src: url('fonts/Oswald.ttf'); 
 }
 
 body{
-    background-image: url('https://i.ytimg.com/vi/eJSVVofwCLk/maxresdefault.jpg');
+    background-image: url('../images/background.png');
     font-family: 'Oswald', sans-serif;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size:cover;
 }
 
 .sidebar{
@@ -47,11 +47,12 @@ body{
 .project-back{
     width: 256px;
     height: 256px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
     margin: 4px;
-    border-radius: 4px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
+    border: 1px solid silver
 }
 
 .project-view-button{
@@ -60,28 +61,27 @@ body{
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: rgb(24, 24, 24);
+    background-color: snow;
     transition: .25s;
     text-decoration: none;
     border-radius: 3px;
     margin: 4px;
-    
-    color: snow;
+    color: rgb(24, 24, 24);
     text-transform: uppercase;
 }
 .project-view-button:hover{
     cursor: pointer;
-    background-color: rgb(32, 32, 32);
+    background-color: whitesmoke;
 }
 .project-preview{
     height: 100%;
-    color: #222222;
+    color: snow;
     font-size: 1.8vh;
     padding: 6px;
 }
 .project-name{
     font-size: 3vh;
-    color: #181818;
+    color: snow;
     margin: 4px;
 }
 
@@ -124,7 +124,7 @@ body{
 }
 
 .profilepicture{
-    background-image: url('/images/profilepicture.png');
+    background-image: url('../images/profilepicture.png');
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -160,4 +160,45 @@ body{
     .project-back{
         width: 85%;
     }
+    .group{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.date{
+    background-color: purple;
+    width: min-content;
+    height: fit-content;
+    padding: 2px 6px 2px 6px;
+    margin: 2px;
+    border-radius: 6px;
+    color: snow;
+}
+.project-devinfo{
+    display: flex;
+    flex-direction: row;
+}
+.project-lang{
+    background-color: #36467c;
+    width: min-content;
+    height: fit-content;
+    padding: 2px 6px 2px 6px;
+    margin: 2px;
+    border-radius: 6px;
+    color: snow;
+}
+.group{
+    display: flex;
+    flex-wrap: wrap;
+    height: min-content;
+}
+.sorter{
+    font-size: 3vh;
+    padding: 4px;
+    color: snow;
+}
+.project-link-line{
+    display: flex;
+    flex-direction: row;
 }
