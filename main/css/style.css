@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: snow;
 }
 @font-face {
 	font-family: 'Oswald'; 
@@ -13,6 +14,7 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size:cover;
+    background-attachment: fixed;
 }
 
 .sidebar{
@@ -75,13 +77,11 @@ body{
 }
 .project-preview{
     height: 100%;
-    color: snow;
     font-size: 1.8vh;
     padding: 6px;
 }
 .project-name{
     font-size: 3vh;
-    color: snow;
     margin: 4px;
 }
 
@@ -94,7 +94,6 @@ body{
 }
 
 .bio{
-    color: snow;
     font-size: 2vh;
     margin: 8px 0 8px 0;
     display: flex;
@@ -167,26 +166,24 @@ body{
 }
 
 .date{
-    background-color: purple;
+    background-color: rgb(58, 34, 18);
     width: min-content;
     height: fit-content;
     padding: 2px 6px 2px 6px;
     margin: 2px;
     border-radius: 6px;
-    color: snow;
 }
 .project-devinfo{
     display: flex;
     flex-direction: row;
 }
 .project-lang{
-    background-color: #36467c;
+    background-color: #296337;
     width: min-content;
     height: fit-content;
     padding: 2px 6px 2px 6px;
     margin: 2px;
     border-radius: 6px;
-    color: snow;
 }
 .group{
     display: flex;
@@ -196,9 +193,26 @@ body{
 .sorter{
     font-size: 3vh;
     padding: 4px;
-    color: snow;
 }
 .project-link-line{
     display: flex;
     flex-direction: row;
+}
+.searchbar{
+    display: flex;
+    height: fit-content;
+    padding: 16px;
+}
+.searchbar input{
+    display: flex;
+    height: 22px;
+    width: 220px;
+    border-radius: 360px;
+    border: 0;
+    color: black;
+}
+.projects-space{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }

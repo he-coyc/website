@@ -4,12 +4,12 @@
         <title>
             he_coyc | Официальный сайт хола бола
         </title>
-        <link rel="icon" href="https://he-coyc.ru/skufizator/images/favicon.ico"/>
+        <link rel="icon" href="images/favicon.ico"/>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="so, here is official website of he_coyc. u can find here my apps, programms and more">
+        <meta name="description" content="well, well, well... here is an official website of he_coyc.">
         <meta name="keywords" content="he_coyc, хе_соус, не соус, соус">
-        <link rel="canonical" href="https://he-coyc.ru/main">
+        <link rel="canonical" href="https://he-coyc.ru">
         
     </head>
     <body>
@@ -38,108 +38,28 @@
                 <a href="https://bsky.app/profile/he-coyc.bsky.social/" title="Follow me on Bluesky!" target="_blank" class="link">Bluesky</a>
            </div>
            <div class="contacts">
-            <a href="mail://he.coyc.official@gmail.com" class="mail-contact">copyright or partnership</a>
+            <a href="https://he-coyc.ru/contacts" class="mail-contact">copyright or partnership</a>
            </div>
         </div>
         <div class="background">
             <div class="sidebar"></div>
-            <div>
-                <div class="sorter">📦 Other</div>
-                <div class="group">
-                    <!-- игры на ардуинку -->
-                    <div class="project-back">
-                        <div class="project-name">
-                            Arduino gamebox
-                        </div>
-                        <div class="project-devinfo">
-                            <div class="date">05/06/2024</div>
-                            <div class="project-lang">C/C++</div>
-                        </div>
-                        <div class="project-preview">
-                            A collection of my games for Arduino Nano with an OLED display and a joystick specifically for GyverOled library.
-                        </div>
-                        <a title="Open project" class="project-view-button" target="_blank" >
-                            view
-                        </a>
-                    </div>
+            <div class="projects-space">
+                <div class="searchbar blur">
+                    <input type="text" class="searchbox" oninput="search(this.value)">
                 </div>
                 <div class="sorter">🔨 Tools</div>
-                <div class="group">
-                    <!-- вк рандом -->
-                    <div class="project-back">
-                        <div class="project-name">
-                            ВКрандом
-                        </div>
-                        <div class="project-devinfo">
-                            <div class="date">16/02/2024</div>
-                            <div class="project-lang">Web</div>
-                        </div>
-                        <div class="project-preview">
-                            Настраиваемый генератор ссылок на случайные группы ВКонтакте. Находит рандомные сообщества по заданным параметрам.
-                        </div>
-                        <a title="Open project" class="project-view-button" target="_blank" href="https://he-coyc.ru/vkrandom">
-                            view
-                        </a>
-                    </div>
-                    <!-- расширение -->
-                    <div class="project-back">
-                        <div class="project-name">
-                            mail.ru Adblocker
-                        </div>
-                        <div class="project-devinfo">
-                            <div class="date">8/10/2024</div>
-                            <div class="project-lang">Web/Extension</div>
-                        </div>
-                        <div class="project-preview">
-                            Блокировщик рекламы на домене e.mail.ru
-                        </div>
-                        <div class="project-link-line">
-                            <a title="Open project" class="project-view-button" target="_blank" href="https://chromewebstore.google.com/detail/mailru-adblocker-блокиров/ifgbjopkhclaehifinhomndlignibmje">
-                                view
-                            </a>
-                            <a title="Open project" class="project-view-button" target="_blank" href="https://github.com/he-coyc/mail.ru-adblocker">
-                                GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <div class="group" id="tools"></div>
+                <div class="sorter">🌐 Extensions</div>
+                <div class="group" id="extensions"></div>
+                <div class="sorter">🎮 Games</div>
+                <div class="group" id="games"></div>
                 <div class="sorter">🤡 Useless</div>
-                <div class="group">
-                    <!-- тест на скуфарика -->
-                    <div class="project-back">
-                        <div class="project-name">
-                            Тест на скуфарика
-                        </div>
-                        <div class="project-devinfo">
-                            <div class="date">21/04/2024</div>
-                            <div class="project-lang">Web</div>
-                        </div>
-                        <div class="project-preview">
-                            Ежедневный тест "Какой ты скуфарик". Осторожно, вызывает привыкание.
-                        </div>
-                        <a title="Open project" class="project-view-button" target="_blank" href="https://he-coyc.ru/skufariktoday">
-                            view
-                        </a>
-                    </div>
-                    <!-- скуфизатор текста -->
-                    <div class="project-back">
-                        <div class="project-name">
-                            Скуфизатор текста
-                        </div>
-                        <div class="project-devinfo">
-                            <div class="date">16/04/2024</div>
-                            <div class="project-lang">Web</div>
-                        </div>
-                        <div class="project-preview">
-                            Проект для скуфизации введенного текста.
-                        </div>
-                        <a title="Open project" class="project-view-button" target="_blank" href="https://he-coyc.ru/skufizator">
-                            view
-                        </a>
-                    </div>   
-                </div>
+                <div class="group" id="useless"></div>
+                <div class="sorter">📦 Other</div>
+                <div class="group" id="other"></div>
             </div>
         </div>
         <script src="js/linkFaviconPreview.js"></script>
+        <script src="js/loadprojects.js"></script>
     </body>
 </html>
