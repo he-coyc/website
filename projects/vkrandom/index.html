@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+    <title>VKRandom</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <span class="header">
+        <img src="vk-logo.png" style="height: 32px; margin: 8px;"/>
+    </span>
+    <span class="block">
+        <div align="center">
+            <span class="warning-menu" style="margin-bottom: 64px;">
+                Из-за политики <b>CORS</b>, использование моего фильтра совместно с <b>VK API</b> не является возможным. Рекомендую использовать специальное расширение <a href="https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf" style="color: wheat;" target="_blank">Allow CORS</a> для удобного пользования страничкой.
+                <br><br>
+                Вместо этого ты можешь воспользоваться сторонним <a href="https://cors-anywhere.herokuapp.com" style="color: wheat;" target="_blank">прокси</a>, но тогда я не буду гарантировать выполнение функций сайта должным образом :<
+                <br><br>
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input id="proxy" type="checkbox"><span class="checkbox-ios-switch"></span> Использовать прокси</label>
+                <br><br>
+                Не рекомендуется использовать фильтры, помеченные как "опасно" совместно с прокси, так как это может вызвать даунтайм.
+            </span>
+            <a onclick="openlink()" id="rslt" class="txt" style="font-size: 24px;" href="#"></a>
+            <a onclick="rndgroup()" class="btn" href="#" title="Открыть случайную группу">Поехали!</a>
+            <span class="options-menu" style="margin-top: 64px;">
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input id="opend-optn" type="checkbox" checked><span class="checkbox-ios-switch"></span> Исключительно открытые сообщества</label>
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input id="ten-posts-optn" type="checkbox" disabled><span class="checkbox-ios-switch"></span> Есть хотя-бы 10 постов (Опасно)</label>
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input id="hundert-membrs-optn" type="checkbox"><span class="checkbox-ios-switch"></span> Более 100 участников (Опасно)</label>
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input id="can-write-optn" type="checkbox"><span class="checkbox-ios-switch"></span> Можно писать на стене</label>
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input id="excited-optn" type="checkbox" disabled><span class="checkbox-ios-switch"></span> Группа однозначно существует</label>
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input id="no-events-optn" type="checkbox"><span class="checkbox-ios-switch"></span> Никаких мероприятий</label>
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input id="unbanned-optn" type="checkbox" checked><span class="checkbox-ios-switch"></span> Только незаблокированные группы</label>
+                <label class="checkbox-ios" style="font-size: 18px; margin: 2px;"><input id="no-homo-optn" type="checkbox" checked><span class="checkbox-ios-switch"></span> Отсутствует метка 18+</label>
+            </span>
+
+            <a class="txt" style="font-size: 16px; width: 128px;" href="https://he-coyc.ru" title="Перейти на сайт разработчика">Сделал @he_coyc</a>
+        </div>
+    </span>
+</body>
+
+<script>
+    var element = document.getElementById('rslt');
+    element.innerHTML = 'Здесть появится сгенерированная ссылка.';
+    link = '#';
+    let token = 'a32dbf87a32dbf87a32dbf871da03af359aa32da32dbf87c6fd3aa8ee84af3b217a54a3';
+
+    function getRandomNumber(min,max){
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function rndgroup(){
+        groupid = getRandomNumber(0, 10000000);
+        link = 'https://vk.com/club' + groupid;
+        console.log("Ссылка: " + link);
+
+        element = document.getElementById('rslt');
+        element.innerText = link;
+
+        getRequest = 'https://api.vk.com/method/groups.getById?group_id=' + groupid + '&fields=activity,age_limits,wall,deactivated,status,members_count&access_token=' + token + '&v=5.131 HTTP/1.1';
+        if(document.getElementById('proxy').checked) getRequest = 'https://cors-anywhere.herokuapp.com/' + getRequest;
+        console.log(getRequest);
+        httpGetAsync(getRequest);
+    }
+
+    function httpGetAsync(theUrl, callback){
+    xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() {
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200){
+            json = JSON.parse(toTrueJSON(xmlHttp.responseText));
+
+            name = json.name;
+            closed = json.is_closed;
+            type = json.type;
+            activity = json.activity;
+            age = json.age_limits; // если 3, то это 18+
+            deactivated = json.deactivated;
+            wall = json.wall; // если 1, то стенка открыта
+            status = json.status;
+            followers = json.members_count;
+
+            console.log('Название: '+name);
+            console.log('Закрыта: '+closed);
+            console.log('Тематика: '+activity);
+            console.log('Ограничение по взрасту: ',age); // 3 - 18+
+            console.log('Банан: ' +deactivated);
+            console.log('Стенка: ' + wall); // 1 - открытая
+            console.log('Статус: ' + status);
+            console.log('Папищеки: '+ followers);
+
+            refresh = 0;
+            if(document.getElementById('opend-optn').checked){ if( closed == 1 )refresh++ };
+            if(document.getElementById('hundert-membrs-optn').checked){ if( followers<100 || isNaN(followers) || (typeof followers == 'undefined') )refresh++ };
+            if(document.getElementById('no-homo-optn').checked){ if( age==3 )refresh++ };
+            if(document.getElementById('unbanned-optn').checked){ if( !(typeof deactivated == 'undefined') )refresh++ };
+            if(document.getElementById('can-write-optn').checked){ if( !(wall==1) )refresh++ };
+            if(document.getElementById('no-events-optn').checked){ if(type==event)refresh++ };
+            //if(document.getElementById('').checked){ if()refresh++ };
+            //if(document.getElementById('').checked){ if()refresh++ };
+            
+
+            if(refresh>0){
+            console.log("Возникли проблемы при открытии ссылки.")
+            setTimeout(() => {rndgroup();}, 500 );
+            }else{
+            openlink();
+            console.log("Ссылка открыта без проблем.")
+            }
+
+        }
+    }
+    xmlHttp.open("GET", theUrl, true); // true for asynchronous
+    xmlHttp.send(null);
+    }
+
+    function toTrueJSON(answer){
+        temp = answer.replace('{"response":[', '');
+        temp = temp.replace(']}', '');
+        return(temp);
+    }
+
+    function openlink(){
+        if(link != '#')window.open(link, '_blank').focus();
+    }
+</script>
