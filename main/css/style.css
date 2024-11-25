@@ -228,7 +228,7 @@ body{
     margin-left: 0;
     width: 28px;
     height: 28px;
-    background-image: url('/images/github-mark-white.svg');
+    background-image: url('../images/github-mark-white.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
