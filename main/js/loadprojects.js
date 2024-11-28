@@ -60,16 +60,6 @@ let projects = [
         'category': 'extensions',
     },
     {
-        'name': 'exstazy',
-        'date': '??/11/2024',
-        'type': 'Web/Turbo',
-        'description': 'coming soon',
-        'tags': 'игра, игры, game, 3d, веб',
-        'link': '',
-        'git': '',
-        'category': 'games',
-    },
-    {
         'name': '',
         'date': '',
         'type': '',
