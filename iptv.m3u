@@ -7,8 +7,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_4/variant.m3u8
 #EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_2.png",Россия 1 HD
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/russia1-hd/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_3.png",Матч ТВ HD
-https://bl.rutube.ru/livestream/11bbbec75a2ceb8cf446ad16813c6eec/index.m3u8?s=59ooW4sFjx1pK-093OW79A&e=1755494521&scheme=https
+#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_3.png",Матч! HD
+http://live-mirror-01.ott.tricolor.tv/live/live/match/hls_enc/match.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjA5MTEwNSwiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NDg2MzA1LCJzZXNzaW9uX2lkIjoiMGQ5ZWI3OTE5ZDJjMWIwYTk0OTM1ZjA0MzIzNjdlOWEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.dcR8HnN-RV8Tor6qDiRR0tjGqw3_BbJ4O0_fe2fuftE
 
 #EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_4.png",НТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
