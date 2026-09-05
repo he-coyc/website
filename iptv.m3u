@@ -1,101 +1,101 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_1.png",Первый
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_1.png?raw=true",Первый
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_2.png",Россия 1 HD
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_2.png?raw=true",Россия 1 HD
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8?checkedby:iptvcat.com
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_3.png",Матч! HD
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_3.png?raw=true",Матч! HD
 http://live-mirror-01.ott.tricolor.tv/live/live/match/hls_enc/match.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjA5MTEwNSwiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NDg2MzA1LCJzZXNzaW9uX2lkIjoiMGQ5ZWI3OTE5ZDJjMWIwYTk0OTM1ZjA0MzIzNjdlOWEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.dcR8HnN-RV8Tor6qDiRR0tjGqw3_BbJ4O0_fe2fuftE
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_4.png",НТВ
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_4.png?raw=true",НТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_5.png",5 канал
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_5.png?raw=true?raw=true",5 канал
 https://live-stream-09.ott.tricolor.tv/live/live/5_kanal/hls_enc/5_kanal.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjA5MTEwNSwiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NDg2MzA1LCJzZXNzaW9uX2lkIjoiMGQ5ZWI3OTE5ZDJjMWIwYTk0OTM1ZjA0MzIzNjdlOWEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.dcR8HnN-RV8Tor6qDiRR0tjGqw3_BbJ4O0_fe2fuftE
 
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_6.png",Россия К
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_6.png?raw=true",Россия К
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_7.png",Россия 24 HD
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_7.png?raw=true",Россия 24 HD
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/1080p.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_8.png",Карусель
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_8.png?raw=true",Карусель
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_9.png",ОТР
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_9.png?raw=true",ОТР
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_10.png",ТВ Центр
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_10.png?raw=true",ТВ Центр
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_11.png",Рен ТВ
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_11.png?raw=true",Рен ТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_12.png",Спас
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_12.png?raw=true",Спас
 http://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_13.png",СТС
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_13.png?raw=true",СТС
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_14.png",Домашний
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_14.png?raw=true",Домашний
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_15.png",ТВ-3
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_15.png?raw=true",ТВ-3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_16.png",Пятница
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_16.png?raw=true",Пятница
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_17.png",Звезда
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_17.png?raw=true",Звезда
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_18.png",Мир
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_18.png?raw=true",Мир
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_19.png",ТНТ
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_19.png?raw=true",ТНТ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_20.png",Муз ТВ
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_20.png?raw=true",Муз ТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_21.png",Че!
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_21.png?raw=true",Че!
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_22.png",2x2
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_22.png?raw=true",2x2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_23.png",СТС Love
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_23.png?raw=true",СТС Love
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_24.png",Ю
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_24.png?raw=true",Ю
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://he-coyc.ru/tv_icons/channel_25.png",ТНТ-4
+#EXTINF:-1 tvg-logo="https://github.com/he-coyc/website/blob/main/tv_icons/channel_25.png?raw=true",ТНТ-4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8
 
-#EXTINF:-1 catchup="append" tvg-logo="http://kharkov-z.ru/z-logo-line.png"-,Харьков Z
+#EXTINF:-1 catchup="append" tvg-logo="http://kharkov-z.ru/z-logo-line.png?raw=true"-,Харьков Z
 http://212.193.53.254/app/potok/playlist.m3u8
 
